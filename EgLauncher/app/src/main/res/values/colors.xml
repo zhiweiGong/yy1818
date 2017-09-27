@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="mainUiColor">#FF161B2E</color>
+    <color name="transparent">#00000000</color>
+    <color name="black_overlay">#161B2E</color>
+    <color name="clr_normal">#ff88ffff</color>
+    <color name="clr_pressed">#ff09E5FE</color>
+    <color name="blue">#2EA2E4</color>
+    <color name="green">#0dab61</color>
+    <color name="white">#ffffff</color>
+    <color name="beige">#CDCDCD</color>
+    <color name="grey_light">#f3f3f3</color>
+    <color name="black">#000000</color>
+    <color name="red">#ff0000</color>
+    <color name="red_dark">#BE0E20</color>
+    <color name="blue_dark">#0C4A9A</color>
+    <color name="grey">#FF999999</color>
+    <color name="orange">#EA5513</color>
+</resources>

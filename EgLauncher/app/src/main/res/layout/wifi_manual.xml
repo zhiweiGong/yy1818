@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wifi_manual_Layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/state_background">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:textColor="#ffffffff"
+            android:text="NetworkName" />
+        <EditText
+            android:id="@+id/wifi_manual_SSID_EditText"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textSize="32dp"
+            android:layout_gravity="center"
+            android:background="#ffaaaaaa"
+            android:textColor="#ffffffff"
+            android:text="Blank"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/wifi_manual_PassWD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/wifi_manual_PassWD_Text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:textSize="28dp"
+            android:textColor="#ffffffff"
+            android:text="Password" />
+        <EditText
+            android:id="@+id/wifi_manual_PassWD_EditText"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textSize="32dp"
+            android:inputType="textPassword"
+            android:layout_gravity="center"
+            android:background="#ffaaaaaa"
+            android:textColor="#ffffffff"
+            android:text="Blank"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/wifi_manual_Button_Group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/wifi_manual_Button_back"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="#ff888888"
+            android:text="Back"/>
+        <Button
+            android:id="@+id/wifi_manual_Button_show"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:background="#ff888888"
+            android:text="ShowPassword"/>
+        <Button
+            android:id="@+id/wifi_manual_Button_connect"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:background="#ff888888"
+            android:text="Connect"/>
+
+    </LinearLayout>
+</LinearLayout>

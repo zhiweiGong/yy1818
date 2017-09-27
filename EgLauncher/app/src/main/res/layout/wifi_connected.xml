@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/wifi_connected"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ff888888">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="160dp"
+		android:layout_gravity="center"
+        android:orientation="horizontal">
+        <TextView
+		    android:id="@+id/wifi_connectedText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="48dp"
+            android:textColor="#ffffffff"
+            android:text="Connected" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="350dp"
+        android:layout_marginTop="30dp"
+        android:orientation="horizontal">
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/wifi_manual_Button_Group"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/wifi_manual_Button_forget"
+            android:layout_width="120dp"
+            android:layout_height="40dp"
+            android:background="#ff008888"
+            android:text="Forget"/>
+        <Button
+            android:id="@+id/wifi_manual_Button_determine"
+            android:layout_width="120dp"
+			android:layout_marginLeft="20dp"
+            android:layout_height="40dp"
+            android:background="#ff008888"
+            android:text="Determine"/>
+    </LinearLayout>
+</LinearLayout>

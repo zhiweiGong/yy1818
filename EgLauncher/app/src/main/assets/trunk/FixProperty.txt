@@ -1,0 +1,2 @@
+version_fw=fw0001
+path_dev_s=/sys/devices/mtk-msdc.0/11230000.MSDC0/mmc_host/mmc0/mmc0:0001/cid
